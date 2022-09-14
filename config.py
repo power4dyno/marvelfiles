@@ -18,7 +18,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001559016174"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "1070126339"))
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://modtroda:eDb38lla2lq2jNc_S7x7WxZiNPtgR620@otto.db.elephantsql.com/modtroda")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001503257843"))
